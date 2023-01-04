@@ -6,7 +6,7 @@ def pt(n):
       print(tr)
       tr=[l+r for l,r in zip(tr+y,y+tr)]
    return n>=1
-n=int(input("enter: "))
+n=int(input("enter the number of rows: "))
 pt(n)
 
 #Write a Python function to create and print a list where the values are square of numbers between 1 and 30 (both included).
