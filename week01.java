@@ -18,3 +18,38 @@ public static void main(String[] args){
     System.out.println("Student id: "+student.id+"\nStudent Name: "+student.name);
 }
 }
+
+
+
+//Write a java program to define a class, describe instance methods for setting and retrieving values of intance variables and instantiate its object
+public class Studentsrecords  
+{
+    public String name; 
+    String division; 
+    private int age; 
+    public Studentsrecords(String sname)  
+    {  
+        name = sname;  
+    } 
+    public void setDiv(String sdiv)  
+    {  
+        division = sdiv;  
+    }
+    public void setAge(int sage)  
+    {  
+        age = sage;  
+    }
+    public void printstud()  
+    {  
+        System.out.println("Doctor Name: " + name );  
+        System.out.println("Doctor Division: " + division);   
+        System.out.println("Doctor Age: " + age);  
+    }
+    public static void main(String args[])  
+    {  
+        Studentsrecords s = new Studentsrecords("Dr. Johnny Sins\n");  
+        s.setAge(46);  
+        s.setDiv("Brazzers\n");  
+        s.printstud();  
+    }  
+}
