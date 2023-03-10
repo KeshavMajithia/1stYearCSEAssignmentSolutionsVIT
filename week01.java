@@ -2,7 +2,7 @@ public class Student{
     int id;
     String name;
     Student(){
-        System.out.println("this is a default constructor");
+        System.out.println("this is a default constructor\n");
 }
 Student(int i, String n){
     id=i;
