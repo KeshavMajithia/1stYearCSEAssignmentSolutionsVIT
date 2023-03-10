@@ -41,15 +41,15 @@ public class Studentsrecords
     }
     public void printstud()  
     {  
-        System.out.println("Doctor Name: " + name );  
-        System.out.println("Doctor Division: " + division);   
-        System.out.println("Doctor Age: " + age);  
+        System.out.println("Student Name: " + name );  
+        System.out.println("Student Division: " + division);   
+        System.out.println("Student Age: " + age);  
     }
     public static void main(String args[])  
     {  
-        Studentsrecords s = new Studentsrecords("Dr. Johnny Sins\n");  
-        s.setAge(46);  
-        s.setDiv("Brazzers\n");  
+        Studentsrecords s = new Studentsrecords("Keshav Majithia\n");  
+        s.setAge(20);  
+        s.setDiv("MIC\n");  
         s.printstud();  
     }  
 }
