@@ -20,7 +20,7 @@ class Main{
 }
 
 
-//insert question here
+//write a java program to add different variables.
 class Adder{
     static int add(int a, int b){
         return a+b;
